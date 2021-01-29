@@ -16,7 +16,6 @@ out
 # gradle
 build
 .gradle
-!gradle/wrapper/gradle-wrapper.properties
 
 # other
 eclipse
@@ -26,5 +25,8 @@ gradlew
 *.bat
 *.jar
 *.properties
+!gradle/wrapper/gradle-wrapper.properties
+!gradle.properties
 *.png
 *.gif
+*.log
